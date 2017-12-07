@@ -150,6 +150,12 @@ img {
 // .masthead
 //
 
+.logo{
+	position:absolute;
+	top:1rem;
+	left:1rem;
+}
+
 #section--1,#section--2{
 	background:url({{site.baseurl}}/images/section-1-xl.jpg);
 	width:100vw;
