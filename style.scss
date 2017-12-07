@@ -151,7 +151,9 @@ img {
 //
 
 #section--1{
-	background:red;
+	background:url({{site.baseurl}}/images/section-1-xl.jpg);
+	width:100vw;
+	height:100vh;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
