@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
@@ -20,5 +19,15 @@
     {{ content }}
 
     {% include analytics.html %}
+    
+		<script src="script/jquery-2.2.1.min.js"></script>
+		<script src="script/jquery.scrollify.js"></script>
+    <script>
+      $(function() {
+        $.scrollify({
+          section : "sectscroll",
+        });
+      });
+    </script>
   </body>
 </html>
