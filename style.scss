@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $ptserif;
+  font: 18px/1.4 $ssserif;
   color: $darkGray;
 }
 
@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $ptserif;
+  font-family: $ssserif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -152,8 +152,8 @@ img {
 
 .logo{
 	position:absolute;
-	top:1rem;
-	left:1rem;
+	top:5vw;
+	left:5vw;
 }
 
 #section--1{
@@ -161,9 +161,13 @@ img {
 	background-size:cover;
 	width:100vw;
 	height:100vh;
+	position:relative;
 	.section-content{
 		width:75%;
 		margin:auto;
+		position:absolute;
+		top:5vw;
+		left:5vw;
 		h1,p{
 			color:#fff;
 		}
