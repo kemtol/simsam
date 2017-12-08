@@ -171,6 +171,7 @@ img {
 		left:5vw;
 		h1,h2,p{
 			color:#fff;
+			margin-bottom:5vh;
 		}
 	}
 }
@@ -189,6 +190,7 @@ img {
 		h1,h2,p{
 			text-align:right;
 			color:#fff;
+			margin-bottom:5vh;
 		}
 	}
 }
@@ -209,6 +211,13 @@ img {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		a{
+			font-size: 7vh;
+			color:#fff;
+		}
+		a:hover{
+			color:#fff;
+		}
 	}
 	.our-service:first-child{
 		background:url({{site.baseurl}}/images/section-3-1-xl.jpg) no-repeat;
