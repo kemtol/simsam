@@ -168,6 +168,12 @@ img {
 	width:100vw;
 	height:100vh;
 }
+#section--3{
+	background:url({{site.baseurl}}/images/section-2-xl.jpg) no-repeat;
+	background-size:cover;
+	width:100vw;
+	height:100vh;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
