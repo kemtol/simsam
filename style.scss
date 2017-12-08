@@ -154,6 +154,7 @@ img {
 	position:absolute;
 	top:5vw;
 	left:5vw;
+	z-index:1;
 }
 
 #section--1{
@@ -166,7 +167,7 @@ img {
 		width:75%;
 		margin:auto;
 		position:absolute;
-		top:5vw;
+		bottom:5vw;
 		left:5vw;
 		h1,p{
 			color:#fff;
