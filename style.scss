@@ -173,6 +173,14 @@ img {
 	background-size:cover;
 	width:100vw;
 	height:100vh;
+	.our-service{
+		background:red;
+		width:100%;
+		height:50%;
+	}
+	.our-service:first-child{
+		background:yellow;
+	}
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
