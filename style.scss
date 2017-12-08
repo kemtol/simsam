@@ -7,7 +7,7 @@
 
 @import "reset";
 @import "variables";
-@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -20,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $ptserif;
   color: $darkGray;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $ptserif;
   color: $darkerGray;
   font-weight: bold;
 
@@ -162,6 +162,13 @@ img {
 	background-size:cover;
 	width:100vw;
 	height:100vh;
+	.section-content{
+		width:75%;
+		margin:auto;
+		h1,p{
+			color:$fff;
+		}
+	}
 }
 #section--2{
 	background:url({{site.baseurl}}/images/section-2-xl.jpg) no-repeat;
