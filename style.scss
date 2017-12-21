@@ -312,6 +312,40 @@ img {
 	}
 }
 
+#section--6{
+	background:url({{site.url}}/images/section-5-xl.jpg) no-repeat;
+	background-size:cover;
+	width:100vw;
+	height:100vh;
+	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.section-content{
+		width:90vw;
+		margin:auto;
+		text-align:center;
+		h1,h2,p{
+			color:#fff;
+			margin-bottom:5vh;
+		}
+		.btn1{
+			display: flex;
+			width: 25vw;
+			height: 5vw;
+			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
+			background-size: contain;
+			align-items: center;
+			justify-content: center;
+			margin:auto;
+			span{
+				font-size: 2vh;
+				color: white;
+			}
+		}
+	}
+}
+
 @media only screen and (max-width: 769px){
 	.logo{
 		width: 200px;
