@@ -320,10 +320,11 @@ img {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	.section-content{
-		width:90vw;
-		margin:auto;
-		text-align:center;
+	.section-content-50{
+		width:50vw;
+		height:100vh
+		float:left;
+		padding:5vw;
 		h1,h2,p{
 			color:#fff;
 			margin-bottom:5vh;
