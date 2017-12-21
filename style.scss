@@ -175,6 +175,14 @@ img {
 			color:#fff;
 			margin-bottom:5vh;
 		}
+		.btn1{
+			display: flex;
+			width: 39.5rem;
+			height: 8rem;
+			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
+			align-items:center;
+			justify-content:center;
+		}
 	}
 }
 #section--2{
