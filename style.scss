@@ -334,10 +334,11 @@ img {
 			color:#111;
 			margin-bottom:5vh;
 			position:relative;
+		    	padding-left: 15vh;
 			span{
 				position: absolute;
 				/* Safari */
-				font-size: 7rem;
+				font-size: 5vw;
 				left: 0;
 				top: 0;
 				-webkit-transform: rotate(-90deg);  /* Firefox */
