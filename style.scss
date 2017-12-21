@@ -313,14 +313,12 @@ img {
 	}
 }
 
-/*@media only screen and (min-width: 1200px){
-	h1{
-		font-size: 4.5vh;
+@media only screen and (max-width: 769px){
+	.btn1{
+		width: 90vw;
+		height: 18vw;
 	}
-	p{
-		font-size: 2.5vh;
-	}
-}*/
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
