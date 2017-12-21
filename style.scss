@@ -160,7 +160,7 @@ img {
 }
 
 #section--1{
-	background:url({{site.baseurl}}/images/section-1-xl.jpg) no-repeat;
+	background:url({{site.url}}/images/section-1-xl.jpg) no-repeat;
 	background-size:cover;
 	width:100vw;
 	height:100vh;
@@ -177,16 +177,16 @@ img {
 		}
 		.btn1{
 			display: flex;
-			width: 39.5em;
-			width: 33vw;
-			height: 8em;
-			height: 6vw;
-			background: url(https://kemtol.github.io/simsam//images/section-1-btn.svg) no-repeat;
+			/*width: 39.5em;*/
+			width: 25vw;
+			/*height: 8em;*/
+			height: 5vw;
+			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			span{
-				font-size: 2.5vh;
+				font-size: 2vh;
 				color: white;
 			}
 		}
