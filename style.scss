@@ -255,7 +255,7 @@ img {
 		width:90vw;
 		margin:auto;
 		position:absolute;
-		bottom:5vw;
+		bottom:10vw;
 		left:5vw;
 		h1,h2,p{
 			color:#fff;
@@ -263,14 +263,13 @@ img {
 		}
 		.btn1{
 			display: flex;
-			/*width: 39.5em;*/
 			width: 25vw;
-			/*height: 8em;*/
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
+			float:right;
 			span{
 				font-size: 2vh;
 				color: white;
@@ -285,12 +284,12 @@ img {
 	width:100vw;
 	height:100vh;
 	position:relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	.section-content{
 		width:90vw;
 		margin:auto;
-		position:absolute;
-		bottom:5vw;
-		left:5vw;
 		h1,h2,p{
 			color:#fff;
 			margin-bottom:5vh;
@@ -305,6 +304,7 @@ img {
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
+			margin:auto;
 			span{
 				font-size: 2vh;
 				color: white;
