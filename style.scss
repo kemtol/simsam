@@ -182,7 +182,8 @@ img {
 			/*height: 8em;*/
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: contain;
+			background-size: auto;
+			background-position:center center;
 			align-items: center;
 			justify-content: center;
 			span{
@@ -266,7 +267,8 @@ img {
 			width: 25vw;
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: contain;
+			background-size: auto;
+			background-position:center center;
 			align-items: center;
 			justify-content: center;
 			float:right;
@@ -297,12 +299,11 @@ img {
 		}
 		.btn1{
 			display: flex;
-			/*width: 39.5em;*/
 			width: 25vw;
-			/*height: 8em;*/
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: contain;
+			background-size: auto;
+			background-position:center center;
 			align-items: center;
 			justify-content: center;
 			margin:auto;
