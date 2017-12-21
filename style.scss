@@ -313,6 +313,10 @@ img {
 }
 
 @media only screen and (max-width: 769px){
+	.logo{
+		width: 200px;
+	}
+	
 	.btn1{
 		background-size: auto !important;
 		background-position:center center !important;
