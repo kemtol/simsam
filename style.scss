@@ -182,8 +182,7 @@ img {
 			/*height: 8em;*/
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: auto;
-			background-position:center center;
+			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			span{
@@ -267,8 +266,7 @@ img {
 			width: 25vw;
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: auto;
-			background-position:center center;
+			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			float:right;
@@ -302,8 +300,7 @@ img {
 			width: 25vw;
 			height: 5vw;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
-			background-size: auto;
-			background-position:center center;
+			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			margin:auto;
@@ -317,6 +314,8 @@ img {
 
 @media only screen and (max-width: 769px){
 	.btn1{
+		background-size: auto !important;
+		background-position:center center !important;
 		width: 90vw !important;
 		height: 18vw !important;
 	}
