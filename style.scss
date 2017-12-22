@@ -335,10 +335,11 @@ img {
 			margin-bottom:5vh;
 			position:relative;
 		    	padding-left: 15vh;
+			line-height:3;
 			span{
 				position: absolute;
 				/* Safari */
-				font-size: 5vw;
+				font-size: 7vh;
 				left: 0;
 				top: 0;
 				-webkit-transform: rotate(-90deg);  /* Firefox */
@@ -348,6 +349,20 @@ img {
 				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 			}
 		}
+		
+		ul{
+		    	padding-left: 15vh;
+			li{
+				line-height: 3;
+				a{
+					color:#111;
+				}
+				a:hover{
+					text-decoration:underline;
+				}
+			}
+		}
+		
 		.btn1{
 			display: flex;
 			width: 25vw;
