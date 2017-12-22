@@ -23,11 +23,13 @@
 		<script src="{{ site.baseurl }}/js/jquery-2.2.1.min.js"></script>
 		<script src="{{ site.baseurl }}/js/jquery.scrollify.js"></script>
     <script>
-      $(function() {
-        $.scrollify({
-          section : ".sectscroll",
-        });
-      });
+	$(function() {
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+			$.scrollify({
+				section : ".sectscroll",
+			});
+		}
+	});
     </script>
   </body>
 </html>
