@@ -402,13 +402,23 @@ img {
 	    	font-size: 6vw;
 	}
 	
+	#section--6{
+		display:block;
+	}
+	
+	#section--6 .section-content-50{
+		width:100vw;
+		height:auto;
+	}
+	
 	.btn1{
 		width: 90vw !important;
 		height: 18vw !important;
 	}
+	
 }
 
-@media only screen and (max-width: 769px){
+@media only screen and (max-width: 421px){
 	.logo{
 		width: 125px;
 	}
