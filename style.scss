@@ -351,7 +351,20 @@ img {
 		}
 		
 		ul{
+			list-style: none;
 		    	padding-left: 15vh;
+			span{
+				position: absolute;
+				/* Safari */
+				font-size: 7vh;
+				left: 0;
+				top: 0;
+				-webkit-transform: rotate(-90deg);  /* Firefox */
+				-moz-transform: rotate(-90deg);  /* IE */
+				-ms-transform: rotate(-90deg);  /* Opera */
+				-o-transform: rotate(-90deg);  /* Internet Explorer */
+				filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+			}
 			li{
 				line-height: 3;
 				a{
