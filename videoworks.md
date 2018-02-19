@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Videoworks
-permalink: /videoworks.html
+permalink: /videoworks/
 ---
 
 <div class="posts">
