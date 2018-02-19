@@ -7,8 +7,10 @@ permalink: /videoworks/
 <div class="posts">
   {% for post in site.categories.videoworks %}
     <article class="post">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ post.videolink }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <img src="http://i.ytimg.com/vi/{{ post.videoid }}/maxresdefault.jpg" />
+        {{ post.title }}
+      </a>
     </article>
   {% endfor %}
 </div>
