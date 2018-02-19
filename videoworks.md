@@ -4,8 +4,6 @@ title: Videoworks
 permalink: /videoworks/
 ---
 
-# VIDEOWORKS
-
 <div class="posts">
   {% for post in site.categories.videoworks %}
     <article class="post">
