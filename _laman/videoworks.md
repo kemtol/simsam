@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Videoworks
+permalink: /videoworks.html
 ---
 
 <div class="posts">
