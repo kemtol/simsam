@@ -1,23 +1,24 @@
 ---
 layout: post-video
-title: Blanja.com July Joy
+title: BLANJA.com UKM Belimbing Depok
 categories:
 - videoworks
-videoid: vVC9b8TjD8w
+videoid: vO1A2S0ERPk
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vVC9b8TjD8w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vO1A2S0ERPk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-# BLANJA.com July Joy
-Client: BLANJA.com
+## BLANJA.com | UKM Belimbing Depok
+Client:BLANJA.com
 Director: Fadel Ramadhan
-Ass. Director: Irvan Fidarianto
+Ass. Director: Panji Kamrul
 D.O.P: Said Yogie Saputra
-Editor: Fadel Ramdhan
+Editor: Fadel Ramadhan
 
 
-# Sim & Sam Creative House
-Jl. Bangka XII No.4
+## Sim & Sam Creative House
+Jl. Bangka 12 No.4
 Pela Mampang, Kebayoran Baru
 Jakarta Selatan
 simnsam@outlook.com
+www.simandsam.com
