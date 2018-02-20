@@ -23,17 +23,7 @@
 	<script src="{{ site.baseurl }}/js/jquery-2.2.1.min.js"></script>
 	<script src="{{ site.baseurl }}/js/jquery.scrollify.js"></script>
 	<script>
-	$(function() {
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-		}else{
-			$.scrollify({
-				section : ".sectscroll",
-			});
-		}
-	});
-	</script>
 	{% if page.page-cat %}
-	<script>
 		function getParameterByName(name, url) {
 		    if (!url) url = window.location.href;
 		    name = name.replace(/[\[\]]/g, "\\$&");
@@ -46,7 +36,16 @@
 
 		var get_t = getParameterByName('t');
 		alert(get_t);
-	</script>
 	{%  endif %}
+
+	$(function() {
+		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+		}else{
+			$.scrollify({
+				section : ".sectscroll",
+			});
+		}
+	});
+	</script>
 </body>
 </html>
