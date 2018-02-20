@@ -425,11 +425,13 @@ img {
 	background: #000;
 	color: #fff;
 	padding-top: 2rem;
-	max-width:1200px;
-	width:90vw;
-	margin:auto;
 	h1,h2{
 		color:#fff;
+	}
+	.post{
+		max-width:1200px;
+		width:90vw;
+		margin:auto;
 	}
 }
 
