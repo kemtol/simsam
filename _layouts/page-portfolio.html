@@ -4,7 +4,7 @@ layout: default
 
 <ul class="page-tags">
   {% for tags in page.tags %}
-    <li>{{ tags }}</li>
+    <li><a href="{{ site.baseurl }}/videoworks/{{ tags }}">{{ tags }}<a/></li>
   {% endfor %}
 </ul>
 
