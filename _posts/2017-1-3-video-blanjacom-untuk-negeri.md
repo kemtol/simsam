@@ -9,8 +9,8 @@ tags:
 - series
 ---
 
-**BLANJA.com bersama ribuan UKM Hadir Untuk Negeri**
-Client: BLANJA.com
+**BLANJA.com bersama ribuan UKM Hadir Untuk Negeri**<br/>
+Client: BLANJA.com<br/>
 Editor: Fadel Ramadhan
 
 **Sim & Sam Creative House**
