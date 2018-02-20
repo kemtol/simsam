@@ -2,7 +2,7 @@
 layout: page-portfolio
 title: Videoworks
 permalink: /videoworks/
-page-cat: videworks
+page-cat: videoworks
 tags:
 - commercial
 - series
