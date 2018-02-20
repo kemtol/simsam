@@ -428,6 +428,13 @@ img {
 	h1,h2{
 		color:#fff;
 	}
+	.logo{
+		position: fixed;
+		top: 3rem;
+		left: 15px;
+		z-index: 1;
+		max-width: 10rem;
+	}
 	.post{
 		max-width:1200px;
 		width:90vw;
@@ -437,7 +444,7 @@ img {
 
 .youtube-video{
 	width:100vw;
-	height:50vh;
+	height:75vh;
 }
 
 @media only screen and (max-width: 769px){
