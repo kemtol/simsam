@@ -393,6 +393,24 @@ img {
 	}
 }
 
+.page.portfolio{
+	.entry{
+		.posts{
+			.post{
+				a{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					width: 50%;
+					span{
+					    position: absolute;
+					}
+				}
+			}
+		}
+	}
+}
+
 #post-video, #post-photo{
     min-height: 100vh;
     background: #111;
