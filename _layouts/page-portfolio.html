@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-
+{% include company-logo.html %}
 <ul class="page-tags">
   {% for tags in page.tags %}
     <li><a href="{{ site.baseurl }}/{{ page.page-cat }}/?t={{ tags }}">{{ tags }}</a></li>
   {% endfor %}
 </ul>
 
-<article class="page">
+<article class="page portfolio">
 
   <h1>{{ page.title }}</h1>
 
