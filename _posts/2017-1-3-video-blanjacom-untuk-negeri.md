@@ -9,8 +9,6 @@ tags:
 - series
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4f33cXdRTyA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ## BLANJA.com bersama ribuan UKM Hadir Untuk Negeri
 Client: BLANJA.com
 Editor: Fadel Ramadhan
