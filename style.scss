@@ -394,6 +394,12 @@ img {
 }
 
 .page.portfolio{
+	.page-tags{
+		li{
+			float:left;
+		}
+	}
+	
 	.entry{
 		.posts{
 			.post{
