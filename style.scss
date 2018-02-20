@@ -470,6 +470,16 @@ img {
 		height: 18vw !important;
 	}
 	
+	.page.portfolio {
+		.entry {
+			.posts {
+				.post{
+					width:50%;
+				}
+			}
+		}
+	}
+	
 	#post-video, #post-photo{
 		padding-top:0;
 		.logo{
