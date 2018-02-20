@@ -397,11 +397,13 @@ img {
 	.entry{
 		.posts{
 			.post{
+				float:left;
+				width:50%;
 				a{
 					display: flex;
 					justify-content: center;
 					align-items: center;
-					width: 50%;
+					width: 100%;
 					span{
 					    position: absolute;
 					}
