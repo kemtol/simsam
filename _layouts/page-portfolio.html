@@ -1,8 +1,10 @@
 ---
 layout: default
 ---
+
 {% include company-logo.html %}
-<ul class="page-tags">
+
+<ul class="page-tags clearfix">
   {% for tags in page.tags %}
     <li><a href="{{ site.baseurl }}/{{ page.page-cat }}/?t={{ tags }}">{{ tags }}</a></li>
   {% endfor %}
