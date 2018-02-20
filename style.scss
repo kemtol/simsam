@@ -393,6 +393,13 @@ img {
 	}
 }
 
+#post-video, #post-photo{
+    min-height: 100vh;
+    background: #111;
+    color: #fff;
+    padding-top: 2rem;
+}
+
 .youtube-video{
 	width:100vw;
 	height:50vh;
