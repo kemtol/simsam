@@ -46,8 +46,10 @@
 			});
 		}
 		{% if page.page-cat %}
-			$(".post").hide();
-			$(classtoshow).show();
+			if(classtoshow != null){
+				$(".post").hide();
+				$(classtoshow).show();
+			}
 		{%  endif %}
 	});
 	</script>
