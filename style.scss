@@ -394,15 +394,11 @@ img {
 }
 
 .page-tags{
+	float:right;
 	li{
 		float:left;
+		margin-left:1rem;
 	}
-}
-
-.page-tags:after{
-	content:"";
-	display:block;
-	clear:both;
 }
 
 .page.portfolio{
