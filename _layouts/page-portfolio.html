@@ -18,23 +18,16 @@ layout: default
 </article>
 
 <script>
-var loc = window.location.href;
-var param = {};
-if(loc.indexOf('?') > -1){
-    var params = loc.substr(loc.indexOf('?')+1, loc.length).split("&");
-
-    var stringJson = "{";
-    for(var i=0;i<params.length;i++)
-    {
-        var propVal = params[i].split("=");
-        var paramName = propVal[0];
-        var value = propVal[1];
-        stringJson += "\""+paramName+"\": \""+value+"\"";
-        if(i != params.length-1) stringJson += ",";
-    }
-    stringJson += "}";
-    // parse string with jQuery parseJSON
-    param = $.parseJSON(stringJson);
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
-alert(param.t);
+  
+var get_t = getParameterByName('t');
+alert(get_t);
 </script>
