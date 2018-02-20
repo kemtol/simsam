@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<ul class="page-tags">
+  {% for tags in page.tags %}
+    <li>{{ tags }}</li>
+  {% endfor %}
+</ul>
+
 <article class="page">
 
   <h1>{{ page.title }}</h1>
