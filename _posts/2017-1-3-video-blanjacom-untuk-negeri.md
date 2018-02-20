@@ -9,6 +9,9 @@ tags:
 - series
 ---
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus varius tellus, nec rhoncus magna ultricies ut. Sed volutpat hendrerit dictum. Etiam sit amet facilisis elit, sed semper eros. In tempor nibh quis tellus dapibus, quis tincidunt purus faucibus. Etiam mollis ultrices eros, ut venenatis magna iaculis in.
+
+
 Client: BLANJA.com<br/>
 Editor: Fadel Ramadhan<br/>
 
