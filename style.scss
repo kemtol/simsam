@@ -410,6 +410,12 @@ img {
 				}
 			}
 		}
+		
+		.posts:after{
+			content:"";
+			display:block;
+			clear:both;
+		}
 	}
 }
 
