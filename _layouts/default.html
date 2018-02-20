@@ -34,8 +34,7 @@
 		    return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 
-		var get_t = getParameterByName('t');
-		alert(get_t);
+		var classtoshow = "." + getParameterByName('t');
 	{%  endif %}
 
 	$(function() {
@@ -45,6 +44,9 @@
 				section : ".sectscroll",
 			});
 		}
+		{% if page.page-cat %}
+			$(classtoshow).hide();
+		{%  endif %}
 	});
 	</script>
 </body>
