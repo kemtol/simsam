@@ -424,14 +424,14 @@ img {
 	min-height: 100vh;
 	background: #000;
 	color: #fff;
-	padding-top: 2rem;
+	padding-top: 0;
 	padding-bottom: 8rem;
 	h1,h2{
 		color:#fff;
 	}
 	.logo{
 		position: fixed;
-		top: 3rem;
+		top: 15px;
 		left: 15px;
 		z-index: 1;
 		max-width: 10rem;
