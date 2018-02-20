@@ -6,7 +6,6 @@ categories:
 videoid: vO1A2S0ERPk
 ---
 
-**BLANJA.com | UKM Belimbing Depok**<br/>
 Client:BLANJA.com<br/>
 Director: Fadel Ramadhan<br/>
 Ass. Director: Panji Kamrul<br/>
