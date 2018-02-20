@@ -16,3 +16,25 @@ layout: default
     {{ content }}
   </div>
 </article>
+
+<script>
+var loc = window.location.href;
+var param = {};
+if(loc.indexOf('?') > -1){
+    var params = loc.substr(loc.indexOf('?')+1, loc.length).split("&");
+
+    var stringJson = "{";
+    for(var i=0;i<params.length;i++)
+    {
+        var propVal = params[i].split("=");
+        var paramName = propVal[0];
+        var value = propVal[1];
+        stringJson += "\""+paramName+"\": \""+value+"\"";
+        if(i != params.length-1) stringJson += ",";
+    }
+    stringJson += "}";
+    // parse string with jQuery parseJSON
+    param = $.parseJSON(stringJson);
+}
+alert(param.t);
+</script>
