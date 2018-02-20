@@ -405,9 +405,13 @@ img {
 		position:absolute;
 		right:1rem;
 		bottom:1rem;
+		list-style:none;
 		li{
 			float:left;
 			margin-left:1rem;
+			a{
+				color:#fff;
+			}
 		}
 	}
 }
