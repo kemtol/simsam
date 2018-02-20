@@ -17,7 +17,7 @@ tags:
     <article class="post {% for tags in post.tags %}{{ tags }} {% endfor %}">
       <a href="{{ site.baseurl }}{{ post.url }}">
         <img src="http://i.ytimg.com/vi/{{ post.videoid }}/maxresdefault.jpg" />
-        {{ post.title }}
+        <span>{{ post.title }}</span>
       </a>
     </article>
   {% endfor %}
