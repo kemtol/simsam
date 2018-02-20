@@ -2,13 +2,15 @@
 layout: default
 ---
 
-{% include company-logo.html %}
+<div class="header-portfolio">
+  {% include company-logo.html %}
 
-<ul class="page-tags clearfix">
-  {% for tags in page.tags %}
-    <li><a href="{{ site.baseurl }}/{{ page.page-cat }}/?t={{ tags }}">{{ tags }}</a></li>
-  {% endfor %}
-</ul>
+  <ul class="page-tags clearfix">
+    {% for tags in page.tags %}
+      <li><a href="{{ site.baseurl }}/{{ page.page-cat }}/?t={{ tags }}">{{ tags }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
 <article class="page portfolio">
 
