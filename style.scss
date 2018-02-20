@@ -397,8 +397,9 @@ img {
 	position:relative;
 	.logo{
 		position:initial;
-		margin-top:15px;
-		margin-left:15px;
+		margin-top:2.5rem;
+		margin-left:2.5rem;
+		max-width:15rem;
 	}
 
 	.page-tags{
@@ -417,6 +418,12 @@ img {
 }
 
 .page.portfolio{
+	h1{
+		padding-left:2.5rem;
+		color:#fff;
+		font-weight:normal;
+	}
+	
 	.entry{
 		.posts{
 			.post{
