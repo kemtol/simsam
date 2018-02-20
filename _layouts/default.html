@@ -32,6 +32,7 @@
 		}
 	});
 	</script>
+	{% if page.page-cat != null %}
 	<script>
 		function getParameterByName(name, url) {
 		    if (!url) url = window.location.href;
@@ -46,5 +47,6 @@
 		var get_t = getParameterByName('t');
 		alert(get_t);
 	</script>
+	{% if endif %}
 </body>
 </html>
