@@ -35,7 +35,7 @@
 		    return decodeURIComponent(results[2].replace(/\+/g, " "));
 		}
 
-		var classtoshow = "." + getParameterByName('t');
+		var classtoshow = getParameterByName('t');
 	{%  endif %}
 
 	$(function() {
@@ -46,10 +46,9 @@
 			});
 		}
 		{% if page.page-cat %}
-			alert(classtoshow)
 			if(classtoshow != null){
 				$(".post").hide();
-				$(classtoshow).show();
+				$("."+classtoshow).show();
 			}
 		{%  endif %}
 	});
