@@ -8,17 +8,17 @@ tags :
 - commercial
 ---
 
-## BLANJA.com July Joy
-Client: BLANJA.com
-Director: Fadel Ramadhan
-Ass. Director: Irvan Fidarianto
-D.O.P: Said Yogie Saputra
-Editor: Fadel Ramdhan
+**BLANJA.com July Joy**
+Client: BLANJA.com<br/>
+Director: Fadel Ramadhan<br/>
+Ass. Director: Irvan Fidarianto<br/>
+D.O.P: Said Yogie Saputra<br/>
+Editor: Fadel Ramdhan<br/>
 
 
-## Sim & Sam Creative House
-Jl. Bangka XII No.4
-Pela Mampang, Kebayoran Baru
-Jakarta Selatan
-simnsam@outlook.com
+**Sim & Sam Creative House**
+Jl. Bangka XII No.4<br/>
+Pela Mampang, Kebayoran Baru<br/>
+Jakarta Selatan<br/>
+simnsam@outlook.com<br/>
 www.simandsam.com
