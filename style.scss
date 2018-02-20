@@ -393,11 +393,22 @@ img {
 	}
 }
 
-.page-tags{
-	float:right;
-	li{
-		float:left;
-		margin-left:1rem;
+.header-portfolio{
+	position:relative;
+	.logo{
+		position:relative;
+		margin-top:15px;
+		margin-left:15px;
+	}
+
+	.page-tags{
+		position:absolute;
+		right:1rem;
+		bottom:1rem;
+		li{
+			float:left;
+			margin-left:1rem;
+		}
 	}
 }
 
