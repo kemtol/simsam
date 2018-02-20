@@ -11,16 +11,11 @@ tags:
 
 **BLANJA.com bersama ribuan UKM Hadir Untuk Negeri**<br/>
 Client: BLANJA.com<br/>
-Editor: Fadel Ramadhan
+Editor: Fadel Ramadhan<br/>
 
-**Sim & Sam Creative House**
-
-Jl. Bangka 12 No.4
-
-Pela Mampang, Kebayoran Baru
-
-Jakarta Selatan
-
-simnsam@outlook.com
-
-www.simandsam.com
+**Sim & Sam Creative House**<br/>
+Jl. Bangka 12 No.4<br/>
+Pela Mampang, Kebayoran Baru<br/>
+Jakarta Selatan<br/>
+simnsam@outlook.com<br/>
+www.simandsam.com<br/>
