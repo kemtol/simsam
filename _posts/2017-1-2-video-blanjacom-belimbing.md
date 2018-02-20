@@ -6,7 +6,7 @@ categories:
 videoid: vO1A2S0ERPk
 ---
 
-**BLANJA.com | UKM Belimbing Depok**
+**BLANJA.com | UKM Belimbing Depok**<br/>
 Client:BLANJA.com<br/>
 Director: Fadel Ramadhan<br/>
 Ass. Director: Panji Kamrul<br/>
@@ -14,7 +14,7 @@ D.O.P: Said Yogie Saputra<br/>
 Editor: Fadel Ramadhan<br/>
 
 
-**Sim & Sam Creative House**
+**Sim & Sam Creative House**<br/>
 Jl. Bangka 12 No.4<br/>
 Pela Mampang, Kebayoran Baru<br/>
 Jakarta Selatan<br/>
