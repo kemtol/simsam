@@ -52,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size:3.5vh;
 }
 
 h3 {
@@ -398,6 +398,9 @@ img {
     background: #111;
     color: #fff;
     padding-top: 2rem;
+	h1,h2{
+		color:#fff;
+	}
 }
 
 .youtube-video{
