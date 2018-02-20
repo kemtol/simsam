@@ -14,8 +14,13 @@ Client: BLANJA.com
 Editor: Fadel Ramadhan
 
 **Sim & Sam Creative House**
+
 Jl. Bangka 12 No.4
+
 Pela Mampang, Kebayoran Baru
+
 Jakarta Selatan
+
 simnsam@outlook.com
+
 www.simandsam.com
