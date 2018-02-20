@@ -1,7 +1,7 @@
 ---
 layout: page-portfolio
 title: Videoworks
-permalink: /videoworks/
+permalink: /videoworks.html
 page-cat: videworks
 tags:
 - commercial
