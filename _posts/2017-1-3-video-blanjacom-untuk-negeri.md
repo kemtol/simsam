@@ -9,7 +9,6 @@ tags:
 - series
 ---
 
-**BLANJA.com bersama ribuan UKM Hadir Untuk Negeri**<br/>
 Client: BLANJA.com<br/>
 Editor: Fadel Ramadhan<br/>
 
