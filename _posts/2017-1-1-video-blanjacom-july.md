@@ -4,6 +4,8 @@ title: Blanja.com July Joy
 categories:
 - videoworks
 videoid: vVC9b8TjD8w
+tags :
+- commercial
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/vVC9b8TjD8w" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
