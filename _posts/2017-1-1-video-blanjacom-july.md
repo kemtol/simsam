@@ -8,7 +8,6 @@ tags :
 - commercial
 ---
 
-**BLANJA.com July Joy**
 Client: BLANJA.com<br/>
 Director: Fadel Ramadhan<br/>
 Ass. Director: Irvan Fidarianto<br/>
