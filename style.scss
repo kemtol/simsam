@@ -421,10 +421,12 @@ img {
 }
 
 #post-video, #post-photo{
-    min-height: 100vh;
-    background: #000;
-    color: #fff;
-    padding-top: 2rem;
+	min-height: 100vh;
+	background: #000;
+	color: #fff;
+	padding-top: 2rem;
+	max-width:1200px;
+	width:90vw;
 	h1,h2{
 		color:#fff;
 	}
