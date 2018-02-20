@@ -6,8 +6,6 @@ categories:
 videoid: vO1A2S0ERPk
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vO1A2S0ERPk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
 ## BLANJA.com | UKM Belimbing Depok
 Client:BLANJA.com
 Director: Fadel Ramadhan
