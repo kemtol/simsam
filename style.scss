@@ -501,6 +501,14 @@ img {
 		width: 90vw !important;
 		height: 18vw !important;
 	}
+
+	.header-portfolio .page-tags {
+	    position: unset;
+	    list-style: none;
+	    margin-top: 15px;
+	    padding: 0 15px;
+	    text-align: center;
+	}
 	
 	.page.portfolio {
 		.entry {
