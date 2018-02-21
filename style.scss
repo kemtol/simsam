@@ -508,10 +508,15 @@ img {
 		position: unset;
 		list-style: none;
 		margin: 2rem 0;
-		padding: 2.5rem 15px;
+		padding: 1.25rem 15px;
 		text-align: center;
 		border-top: 1px solid #fff;
 		border-bottom: 1px solid #fff;
+		li{
+			a{
+				font-size: 1.25rem;
+			}
+		}
 	}
 	
 	.page.portfolio {
