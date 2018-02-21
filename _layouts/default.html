@@ -51,7 +51,7 @@
 			}
 		{%  endif %}
 		
-		{% if page.isindex == false %}
+		{% if page.isindex == true %}
 			$(window).scroll(function(){                          
 			    if ($(this).scrollTop() > 200) {
 				$('.logo').fadeOut(500);
