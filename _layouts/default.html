@@ -50,14 +50,16 @@
 				$("."+classtoshow).show();
 			}
 		{%  endif %}
-		               
-		$(window).scroll(function(){                          
-		    if ($(this).scrollTop() > 200) {
-			$('.logo').fadeOut(500);
-		    } else {
-			$('.logo').fadeIn(500);
-		    }
-		});
+		
+		{% if page.ishome != false %}
+			$(window).scroll(function(){                          
+			    if ($(this).scrollTop() > 200) {
+				$('.logo').fadeOut(500);
+			    } else {
+				$('.logo').fadeIn(500);
+			    }
+			});
+		{%  endif %}
 
 	});
 	</script>
