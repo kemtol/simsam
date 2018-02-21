@@ -538,6 +538,21 @@ img {
 	.logo{
 		width: 125px;
 	}
+	
+	.page.portfolio {
+		h1{
+			padding:0 2.5rem;
+			text-align:center;
+		}
+		.entry {
+			.posts {
+				.post{
+					width:100%;
+					padding:0.5rem 1rem;
+				}
+			}
+		}
+	}	
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
