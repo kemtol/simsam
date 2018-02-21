@@ -238,9 +238,13 @@ img {
 		a{
 			font-size: 7vh;
 			color:#fff;
+			border:2px solid #fff;
+			padding: 2rem 5rem;
 		}
 		a:hover{
-			color:#fff;
+			color:#000;
+			border:2px solid #fff;
+			background:#fff;
 		}
 	}
 	.our-service:first-child{
