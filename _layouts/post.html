@@ -22,7 +22,7 @@ layout: default
   </article>
 </div>
 
-{% elsif page.categories contains "photoworks" %}
+{% else %}
 
 <div id="post-photo">
 {% include company-logo.html %}
@@ -42,9 +42,9 @@ layout: default
   </article>
 </div>
 
-{% else %}
 
-<div id="post-blog">
-</div>
+
+<!--<div id="post-blog">
+</div>-->
 
 {% endif %}
