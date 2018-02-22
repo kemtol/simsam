@@ -5,20 +5,17 @@ permalink: /photoworks/
 page-cat: photoworks
 tags:
 - commercial
-- series
-- video content
-- corporate
-- documentary
-- music
+- fashion
+- product
 ---
 
 <div class="posts">
   {% for post in site.categories.photoworks %}
     <article class="post {% for tags in post.tags %}{{ tags }} {% endfor %}">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <img src="post.featimgurl" />
-        <span>{{ post.title }}</span>
-      </a>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+        </a></h2>
+      {{ post.content }}
     </article>
   {% endfor %}
 </div>
