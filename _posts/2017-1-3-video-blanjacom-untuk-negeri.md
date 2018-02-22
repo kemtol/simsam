@@ -1,5 +1,5 @@
 ---
-layout: post-video
+layout: post
 title: BLANJA.com Hadir Untuk Negeri
 categories:
 - videoworks
