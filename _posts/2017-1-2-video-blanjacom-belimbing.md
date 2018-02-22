@@ -1,5 +1,5 @@
 ---
-layout: post-video
+layout: post
 title: BLANJA.com UKM Belimbing Depok
 categories:
 - videoworks
