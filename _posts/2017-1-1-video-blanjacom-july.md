@@ -1,5 +1,5 @@
 ---
-layout: post-video
+layout: post
 title: Blanja.com July Joy
 categories:
 - videoworks
