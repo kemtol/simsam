@@ -1,5 +1,5 @@
 ---
-layout: post-video
+layout: post
 title: (X)-SML Lookbook
 categories:
 - photoworks
