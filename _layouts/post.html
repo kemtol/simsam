@@ -22,11 +22,10 @@ layout: default
   </article>
 </div>
 
-{% elsif page.categories contains "videoworks" %}
+{% elsif page.categories contains "photoworks" %}
 
 <div id="post-photo">
-{% include company-logo.html %}
-  <img src="{{ page.videourl }}" />
+  {% include company-logo.html %}
   <article class="post">
     <h1>{{ page.title }}</h1>
 
