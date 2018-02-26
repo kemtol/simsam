@@ -605,8 +605,9 @@ img {
 	
 	.page.portfolio {
 		h1{
-			padding:0 2.5rem;
-			text-align:center;
+			padding:0 2rem;
+			text-align:left;
+			
 		}
 		.entry {
 			.posts {
@@ -616,7 +617,11 @@ img {
 				}
 			}
 		}
-	}	
+	}
+	
+	.page.portfolio .entry .posts .post.photoworks h2 {
+    		padding: 0 1.25rem;
+	}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
