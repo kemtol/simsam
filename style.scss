@@ -518,6 +518,23 @@ img {
 	}
 }
 
+#post-photo{
+	width: 100vw;
+	margin: auto;
+	max-width:
+	.post{
+		.entry{
+			p{
+				img{
+					max-width: 100%;
+					width: 33.33%;
+					padding: 1rem 0.5rem;
+				}
+			}
+		}
+	}
+}
+
 .youtube-video{
 	width:100vw;
 	height:75vh;
