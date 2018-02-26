@@ -473,6 +473,9 @@ img {
 				p{
 					color:#fff;
 					padding: 0 2.5rem;
+					@include mobile{
+					    padding: 0 1.25rem;
+					}
 				}
 			}
 		}
