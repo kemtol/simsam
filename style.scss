@@ -460,6 +460,9 @@ img {
 				width:100%;
 				img{
 					width:33.3333%
+					@include mobile{
+						width:100%
+					}
 				}
 				
 				h2{
