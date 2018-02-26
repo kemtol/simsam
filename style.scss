@@ -464,8 +464,9 @@ img {
 					@include mobile{
 						width: 100vw;
 						max-width: 100vw;
-						position: relative;
-						left: -2.25rem;
+						margin-left: -2.25rem;
+						display: block;
+						padding: 1rem;
 					}
 				}
 				
