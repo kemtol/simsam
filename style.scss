@@ -461,7 +461,10 @@ img {
 				img{
 					width:33.3333%
 					@include mobile{
-						width:100%
+						width: 100vw;
+						max-width: 100vw;
+						position: relative;
+						left: -2.25rem;
 					}
 				}
 				
