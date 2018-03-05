@@ -166,7 +166,9 @@ img {
 
 #section--1{
 	background:url({{site.url}}/images/section-1-xl.jpg) no-repeat;
-	background-size:cover;
+	/*background-size:cover;*/
+    	background-size: 90%;
+	background-position: center;
 	width:100vw;
 	height:100vh;
 	position:relative;
