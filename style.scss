@@ -184,6 +184,7 @@ img {
 		}
 		h1{
 			margin-bottom:0;
+			font-size:48px;
 		}
 		p{
 			font-family:$sspro;
@@ -193,15 +194,15 @@ img {
 		.btn1{
 			display: flex;
 			/*width: 39.5em;*/
-			width: 25vw;
+			width: 425px;
 			/*height: 8em;*/
-			height: 5vw;
+			height: 90px;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			span{
-				font-size: 2vh;
+				font-size: 18px;
 				color: white;
 			}
 		}
