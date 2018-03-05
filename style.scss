@@ -256,16 +256,25 @@ img {
 		align-items: center;
 		justify-content: center;
 		a{
-			font-size: 7vh;
-			color:#fff;
-			border:2px solid #fff;
-			padding: 2rem 5rem;
+			display: flex;
+			/*width: 39.5em;*/
+			width: 425px;
+			/*height: 8em;*/
+			height: 90px;
+			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
+			background-size: contain;
+			align-items: center;
+			justify-content: center;
+			span{
+				font-size: 18px;
+				color: white;
+			}
 		}
-		a:hover{
+		/*a:hover{
 			color:#000;
 			border:2px solid #fff;
 			background:#fff;
-		}
+		}*/
 	}
 	.our-service:first-child{
 		background:url({{site.baseurl}}/images/section-3-1-xl.jpg) no-repeat;
