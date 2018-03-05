@@ -228,7 +228,13 @@ img {
 			font-weight:normal;
 		}
 		h2{
-			font-size:4.5vh;
+			margin-bottom:0;
+			font-size:48px;
+		}
+		p{
+			font-family:$sspro;
+			font-weight:300;
+			font-size:18px;
 		}
 	}
 }
