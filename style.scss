@@ -219,7 +219,7 @@ img {
 		margin:auto;
 		position:absolute;
 		bottom:5vw;
-		right:5vw;
+		right:25px;
 		h1,h2,p{
 			text-align:right;
 			color:#fff;
@@ -258,15 +258,15 @@ img {
 		a{
 			display: flex;
 			/*width: 39.5em;*/
-			width: 425px;
+			width: 600px;
 			/*height: 8em;*/
-			height: 90px;
+			height: 120px;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
 			span{
-				font-size: 18px;
+				font-size: 24px;
 				color: white;
 			}
 		}
