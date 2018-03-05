@@ -161,6 +161,7 @@ img {
 	left:2.5rem;
 	z-index:1;
 	max-width:50vw;
+	width:150px;
 }
 
 #section--1{
@@ -178,6 +179,8 @@ img {
 		h1,h2,p{
 			color:#fff;
 			margin-bottom:5vh;
+			font-family:$ssserif;
+			font-weight:normal;
 		}
 		.btn1{
 			display: flex;
@@ -212,6 +215,8 @@ img {
 			text-align:right;
 			color:#fff;
 			margin-bottom:5vh;
+			font-family:$ssserif;
+			font-weight:normal;
 		}
 		h2{
 			font-size:4.5vh;
@@ -268,6 +273,8 @@ img {
 		h1,h2,p{
 			color:#fff;
 			margin-bottom:5vh;
+			font-family:$ssserif;
+			font-weight:normal;
 		}
 		.btn1{
 			display: flex;
@@ -302,6 +309,8 @@ img {
 		h1,h2,p{
 			color:#fff;
 			margin-bottom:5vh;
+			font-family:$ssserif;
+			font-weight:normal;
 		}
 		.btn1{
 			display: flex;
@@ -340,6 +349,8 @@ img {
 			position:relative;
 		    	padding-left: 15vh;
 			line-height:3;
+			font-family:$ssserif;
+			font-weight:normal;
 			span{
 				position: absolute;
 				/* Safari */
