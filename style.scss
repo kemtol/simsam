@@ -314,15 +314,16 @@ section{
 		}
 		.btn1{
 			display: flex;
-			width: 25vw;
-			height: 5vw;
+			/*width: 39.5em;*/
+			width: 425px;
+			/*height: 8em;*/
+			height: 90px;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
-			float:right;
 			span{
-				font-size: 2vh;
+				font-size: 18px;
 				color: white;
 			}
 		}
@@ -360,15 +361,16 @@ section{
 		}
 		.btn1{
 			display: flex;
-			width: 25vw;
-			height: 5vw;
+			/*width: 39.5em;*/
+			width: 425px;
+			/*height: 8em;*/
+			height: 90px;
 			background: url({{site.url}}/images/section-1-btn.svg) no-repeat;
 			background-size: contain;
 			align-items: center;
 			justify-content: center;
-			margin:auto;
 			span{
-				font-size: 2vh;
+				font-size: 18px;
 				color: white;
 			}
 		}
