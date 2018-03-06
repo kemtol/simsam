@@ -164,6 +164,11 @@ img {
 	width:150px;
 }
 
+section{
+	max-width:1960px;
+	margin:auto;
+}
+
 #section--1{
 	background:url({{site.url}}/images/section-1-xl.jpg) no-repeat;
 	/*background-size:cover;*/
