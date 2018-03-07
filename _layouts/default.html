@@ -61,9 +61,9 @@
 				$('.logo').fadeIn(500);
 			    }
 			    if ($(this).scrollTop() > 400) {
-				$('#menuFixed').fadeIn(500);
+				$('#menuFixed').animate({ "top": "+=170px" }, "fast" );
 			    } else {
-				$('#menuFixed').fadeOut(500);
+				$('#menuFixed').animate({ "top": "-=170px" }, "fast" );
 			    }
 			});
 		{%  endif %}
