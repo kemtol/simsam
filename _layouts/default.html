@@ -55,12 +55,12 @@
 		
 		{% if page.isindex == true %}
 			$(window).scroll(function(){                          
-			    if ($(this).scrollTop() > 150) {
+			    /*if ($(this).scrollTop() > 150) {
 				$('.logo').fadeOut(500);
 			    } else {
 				$('.logo').fadeIn(500);
-			    }
-			    if ($(this).scrollTop() > 400) {
+			    }*/
+			    if ($(this).scrollTop() > 200) {
 				$('#menuFixed').animate({ "top": "0px" }, "fast" );
 			    } else {
 				$('#menuFixed').animate({ "top": "-170px" }, "fast" );
