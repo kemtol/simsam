@@ -391,7 +391,6 @@ section{
 	justify-content: center;
 	.section-content-50{
 		width:50vw;
-		height:100vh;
 		float:left;
 		padding:5vw;
 		p{
@@ -405,7 +404,7 @@ section{
 			span{
 				position: absolute;
 				/* Safari */
-				font-size: 7vh;
+				font-size: 48px;
 				left: 0;
 				top: 0;
 				-webkit-transform: rotate(-90deg);  /* Firefox */
@@ -418,11 +417,11 @@ section{
 		
 		ul{
 			list-style: none;
-		    	padding-left: 15vh;
+		    	padding-left: 125px;
 			span{
 				position: absolute;
 				/* Safari */
-				font-size: 7vh;
+				font-size: 48px;
 				left: 0;
 				top: 0;
 				-webkit-transform: rotate(-90deg);  /* Firefox */
@@ -433,6 +432,7 @@ section{
 			}
 			li{
 				line-height: 3;
+				font-size:21px;
 				a{
 					color:#111;
 				}
