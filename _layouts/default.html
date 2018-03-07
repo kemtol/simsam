@@ -61,9 +61,9 @@
 				$('.logo').fadeIn(500);
 			    }*/
 			    if ($(this).scrollTop() > 200) {
-				$('#menuFixed').animate({ "top": "0px" }, "fast" );
+				$('#menuFixed').stop().animate({ "top": "0px" }, "fast" );
 			    } else {
-				$('#menuFixed').animate({ "top": "-170px" }, "fast" );
+				$('#menuFixed').stop().animate({ "top": "-170px" }, "fast" );
 			    }
 			});
 		{%  endif %}
