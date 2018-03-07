@@ -612,6 +612,23 @@ section{
 	#section--1{
 		background-size:cover;
 	}
+	#section--3{
+		.our-service{
+			a{
+				width:500px;
+				height:100px;
+			}
+		}
+	}
+	#section--5 {
+		.section-content {
+			p{
+				width: 80%;
+				margin: auto;
+				margin-bottom: 2rem;
+			}
+		}
+	}
 }
 
 @media only screen and (max-width: 769px){
